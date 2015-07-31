@@ -1,5 +1,5 @@
 # rf-pinn-neopixel
-I needed to tinker with some wearable functionality where multiple Arduinos could send signals or commands to one another in peer-to-peer fashion over a wireless connection. I have two "scout" Arduino boards from the now defunct Pinoccio platform. They are small, have mesh radios built-in and run on 3.7v 550mAH lipo batteries, so they were ideal to build a quick prototype ahead of buying and exploring something like XBee radios with Flora boards, for example
+I needed to tinker with some wearable functionality where multiple Arduinos could send signals or commands to one another in peer-to-peer fashion over a wireless connection. I had two "scout" Arduino boards on hand from the now defunct Pinoccio platform. They are small, have mesh radios built-in and run on 3.7v 550mAH lipo batteries, so they were ideal to build a quick prototype ahead of buying and exploring something like XBee radios with Flora boards, for example
 
 Without using the Pinoccio cloud platform (HQ), I simply wanted one of two scouts (Arduino with mesh radio only, no wi-fi) to be able to tell the other scout to run a simple LED animation on a small connected strand of Neopixels if they were both in range of one another on the same radio channel and part of the same group, and vice versa. In the initial commit, this happens automatically. 
 
